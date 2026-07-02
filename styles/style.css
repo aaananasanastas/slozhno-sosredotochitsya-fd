@@ -76,7 +76,7 @@
   margin-left: var(--header-margin-left);
 }
 
-/* уголочки */
+/* уголочки*/
 .decor::before,
 .decor::after {
   content: "";
@@ -163,7 +163,6 @@
   border-bottom: 1px solid currentColor;
 }
 
-/* --- Секция картинок (<section class="pictures_section">) --- */
 .pictures_section {
   margin-top: 50px;
 }
