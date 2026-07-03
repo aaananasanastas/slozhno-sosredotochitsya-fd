@@ -6,6 +6,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
 }
 
 .header {
@@ -77,8 +78,7 @@
 }
 
 /* уголочки*/
-.decor::before,
-.decor::after {
+.decor:before {
   content: "";
   position: absolute;
   width: 25px;
@@ -88,6 +88,18 @@
   right: var(--decoration-gap);
   border-bottom: none;
   border-left: none;
+}
+
+.decor:after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border: var(--corner-thickness) solid var(--deco-color);
+  bottom: var(--decoration-gap);
+  left: var(--decoration-gap);
+  border-top: none;
+  border-right: none;
 }
 
 .main {
