@@ -406,8 +406,26 @@
   }
 }
 
-@media (max-width: 400px) {
-  .main {
-    margin-top: 8px;
+@media (max-width: 480px) {
+  .section {
+    margin-top: 20px; /* было 40px — уменьшаем */
+  }
+
+  .section_why,
+  .section_what,
+  .section_how {
+    margin-top: 24px; /* было 50px — уменьшаем */
+  }
+
+  .question {
+    margin-top: 12px; /* было 20px — уменьшаем */
+  }
+
+  .advice_title_main {
+    margin: 12px 0; /* было 20px — уменьшаем */
+  }
+
+  .pictures_section {
+    margin-top: 24px; /* было 50px — уменьшаем */
   }
 }
