@@ -77,7 +77,7 @@
   margin-left: var(--header-margin-left);
 }
 
-/* уголочки*/
+/* уголочки */
 .decor:before {
   content: "";
   position: absolute;
@@ -106,7 +106,7 @@
   margin-inline: var(--decoration-gap);
 }
 
-/* вопросы и ответы*/
+/* вопросы и ответы */
 .section {
   display: grid;
   grid-template-columns: 1fr;
@@ -119,7 +119,7 @@
 
 .section_what,
 .section_how {
-  margin-top: 50px;
+  /* пусто: стили уже заданы в .section */
 }
 
 .advice_title_main {
@@ -132,6 +132,27 @@
   font-size: var(--regular-font-size);
   line-height: 1.3;
   margin-top: 20px;
+}
+
+.answers-block {
+  margin-top: 20px;
+}
+
+.question_why {
+  position: relative;
+  top: 20px;
+}
+
+@media (max-width: 768px) {
+  .answers-block {
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .answers-block {
+    margin-top: 8px;
+  }
 }
 
 .answer {
@@ -203,7 +224,6 @@
   margin-bottom: 10px;
 }
 
-/* --- footer --- */
 .footer {
   position: relative;
   height: max(100vh, var(--min-height));
@@ -216,7 +236,6 @@
   align-items: center;
 }
 
-/* --- Прочие элементы (в т.ч. REC) --- */
 .rec_empty {
   position: absolute;
   display: flex;
@@ -256,11 +275,6 @@
 
   .header {
     margin-block-end: 40px;
-    --min-height: 1024px;
-  }
-
-  .footer {
-    --min-height: 1024px;
   }
 
   .pictures {
@@ -341,11 +355,9 @@
 @media (width >= 1024px) {
   .header {
     margin-block-end: 0;
-    --min-height: 768px;
   }
 
   .footer {
-    --min-height: 768px;
     margin-top: 50px;
   }
 
@@ -408,30 +420,35 @@
 
 @media (max-width: 480px) {
   .section {
-    margin-top: 23px; /* было 40px — уменьшаем */
+    margin-top: 20px;
   }
 
-  .section_why {
-    margin-top: 30px; /* было 50px — уменьшаем */
-  }
-
-  .section_what {
-    margin-top: 41px;
-  }
-
+  .section_why,
+  .section_what,
   .section_how {
-    margin-top: 32px;
+    margin-top: inherit;
   }
 
   .question {
-    margin-top: 12px; /* было 20px — уменьшаем */
+    margin-top: 12px;
   }
 
   .advice_title_main {
-    margin-top: 20px; /* было 20px — уменьшаем */
+    margin: 12px 0;
   }
 
   .pictures_section {
-    margin-top: 35px; /* было 50px — уменьшаем */
+    margin-top: 24px;
+  }
+
+  .answer {
+    padding-top: 12px;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 400px) {
+  .main {
+    margin-inline: var(--decoration-gap);
   }
 }
