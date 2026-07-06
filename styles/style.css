@@ -310,9 +310,10 @@
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 2fr;
-    grid-template-areas: "question_why answers_why";
-    grid-template-areas: "question_how answers_how";
-    margin-top: 61px;
+    grid-template-areas: 
+    "question_why answers_why"
+    "question_how answers_how";
+    margin-top: 20px;
   }
 
   .pictures_section {
