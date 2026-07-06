@@ -408,13 +408,13 @@
 
 @media (max-width: 480px) {
   .section {
-    margin-top: 20px; /* было 40px — уменьшаем */
+    margin-top: 23px; /* было 40px — уменьшаем */
   }
 
   .section_why,
   .section_what,
   .section_how {
-    margin-top: 24px; /* было 50px — уменьшаем */
+    margin-top: 30px; /* было 50px — уменьшаем */
   }
 
   .question {
