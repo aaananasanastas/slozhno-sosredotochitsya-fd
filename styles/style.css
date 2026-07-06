@@ -405,3 +405,9 @@
     gap: 10px;
   }
 }
+
+@media (max-width: 400px) {
+  .maim {
+    margin-top: 8px;
+  }
+}
