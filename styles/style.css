@@ -415,10 +415,14 @@
     margin-top: 30px; /* было 50px — уменьшаем */
   }
 
-  .section_what,
-  .section_how {
-    margin-top: 50px;
+  .section_what {
+    margin-top: 40px;
   }
+
+  .section_how {
+    margin-top: 30px;
+  }
+
   .question {
     margin-top: 12px; /* было 20px — уменьшаем */
   }
@@ -428,6 +432,6 @@
   }
 
   .pictures_section {
-    margin-top: 40px; /* было 50px — уменьшаем */
+    margin-top: 30px; /* было 50px — уменьшаем */
   }
 }
