@@ -21,5 +21,25 @@
   --corner-thickness: 1px;
   --rec_empty_x_pos: 30px;
 
-  background-image: url(../images/cover-image-light.png);
+  --background-image: url(../images/cover-image-light.png);
+}
+
+@media (width >= 768px) {
+  .header {
+    --min-height: 1024px;
+  }
+
+  .footer {
+    --min-height: 1024px;
+  }
+}
+
+@media (width >= 1024px) {
+  .header {
+    --min-height: 768px;
+  }
+
+  .footer {
+    --min-height: 768px;
+  }
 }

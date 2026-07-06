@@ -109,16 +109,13 @@
 /* вопросы и ответы*/
 .section {
   display: grid;
-  grid-template-columns: 1fr;
-  margin-top: 40px;
-}
-
-.section_why {
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px;
   margin-top: var(--section-child-margin);
+  gap: 50px;
 }
 
-.section_what,
-.section_how {
+.section_what {
   margin-top: 50px;
 }
 
@@ -131,24 +128,26 @@
   color: var(--question-color);
   font-size: var(--regular-font-size);
   line-height: 1.3;
+  
 }
 
 .answer {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding-top: 20px;
 }
 
 .answer_title {
   background-color: var(--answer-title-bg-color);
   color: var(--answer-title-color);
   font-size: inherit;
+   margin-top: 20px;
 }
 
 .answer_text {
   color: var(--answer-text-color);
   font-weight: normal;
+  grid-column: span 2;
 }
 
 .advice_title {
@@ -202,7 +201,6 @@
   margin-bottom: 10px;
 }
 
-/* --- footer --- */
 .footer {
   position: relative;
   height: max(100vh, var(--min-height));
@@ -213,9 +211,9 @@
   margin-top: 32px;
   display: flex;
   align-items: center;
+  text-shadow: 2px 2px 0 var(--accent-color);
 }
 
-/* --- Прочие элементы (в т.ч. REC) --- */
 .rec_empty {
   position: absolute;
   display: flex;
@@ -247,7 +245,6 @@
   box-shadow: 0 0 4px 2px var(--accent-color);
 }
 
-/* --- Медиа-запросы --- */
 @media (width >= 768px) {
   .big_headline {
     font-size: clamp(7.5rem, 0.563rem + 14.453vw, 15rem);
@@ -255,11 +252,6 @@
 
   .header {
     margin-block-end: 40px;
-    --min-height: 1024px;
-  }
-
-  .footer {
-    --min-height: 1024px;
   }
 
   .pictures {
@@ -302,19 +294,24 @@
     margin-top: 30px;
   }
 
-  .section_why,
-  .section_how {
+  .question_why {
+    margin-top: 20px;
+  }
+
+  .question_how {
+    margin-top: 10px;
+  
+  }
+  .section {
     display: grid;
     gap: 20px;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1.5fr;
   }
 
-  .section_why {
-    grid-template-areas: "question_why answers_why";
-  }
-
-  .section_how {
-    grid-template-areas: "question_how answers_how";
+  .section {
+    grid-template-areas: 
+      "question_why answers_why"
+      "question_how answers_how";
     margin-top: 61px;
   }
 
@@ -336,11 +333,9 @@
 @media (width >= 1024px) {
   .header {
     margin-block-end: 0;
-    --min-height: 768px;
   }
 
   .footer {
-    --min-height: 768px;
     margin-top: 50px;
   }
 
@@ -352,7 +347,7 @@
     bottom: 20px;
   }
 
-  .section_why {
+  .section {
     gap: 10px;
     margin-top: 40px;
   }
@@ -396,7 +391,4 @@
     margin-top: 77px;
   }
 
-  .section_how {
-    gap: 10px;
-  }
 }
