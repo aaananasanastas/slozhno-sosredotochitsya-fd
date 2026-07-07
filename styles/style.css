@@ -403,7 +403,7 @@
     display: block;
     width: 30%;
     grid-area: question_what;
-    margin-top: 5px;
+    margin-top: 15px;
   }
 
   .answers_what {
@@ -411,16 +411,16 @@
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-area: answers_what;
-    margin-top: 72px;
+    margin-top: 80px;
   }
 
   .section_how {
     gap: 10px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   .pictures_section {
-    margin-top: 10px;
+    margin-top: 30px;
   }
 }
 
@@ -430,13 +430,13 @@
   }
 
   .section_why {
-    margin-top: 25px;
+    margin-top: 20px;
   }
   .section_what {
-    margin-top: 40px;
+    margin-top: 35px;
   }
   .section_how {
-    margin-top: 60px;
+    margin-top: 65px;
   }
   .question {
     margin-top: 12px;
