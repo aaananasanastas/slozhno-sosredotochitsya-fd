@@ -136,7 +136,7 @@
 
 /* ИСПРАВЛЕНИЕ: Убрали position:relative, используем margin для сдвига */
 .question_why {
-  margin-top: 40px; /* Подбираем значение, чтобы соответствовать макету (было смещение на 20px + базовый отступ) */
+  margin-top: 50px; /* Подбираем значение, чтобы соответствовать макету (было смещение на 20px + базовый отступ) */
 }
 
 .answers-block {
@@ -313,7 +313,7 @@
   }
 
   .question {
-    margin-top: 12px;
+    margin-top: 20px;
   }
 
   .question_what {
@@ -371,7 +371,7 @@
 
   .section_why {
     gap: 10px;
-    margin-top: 40px;
+    margin-top: 0px; /*?*/
   }
 
   .header_text {
@@ -410,11 +410,12 @@
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-area: answers_what;
-    margin-top: 77px;
+    margin-top: 80px;
   }
 
   .section_how {
     gap: 10px;
+    margin-top: 15px;
   }
 }
 
