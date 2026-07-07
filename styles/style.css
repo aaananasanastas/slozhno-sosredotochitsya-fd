@@ -348,7 +348,7 @@
 
   .question_what {
     width: 30%;
-    margin-top: 50px;
+    margin-top: 48px;
   }
 
   .section_why {
@@ -360,7 +360,7 @@
 
   .section_how {
     display: grid;
-    gap: 32px;
+    gap: 28px;
     grid-template-columns: 1fr 2fr;
     grid-template-areas: "question_how answers_how";
     margin-top: 40px;
@@ -368,7 +368,7 @@
 
   .picture_question {
     grid-column: 1 / 4;
-    margin-top: 50px:
+    margin-top: 47px;
   }
 
   .footer_title {
@@ -377,7 +377,7 @@
   }
 
   .pictures {
-    gap: 24px;
+    gap: 22px;
     margin-top: 0;
     grid-template-columns: repeat(3, 1fr);
   }
