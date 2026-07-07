@@ -274,12 +274,19 @@
     margin-top: 12px;
   }
 
+  .section_what {
+    margin-top: 5px;
+  }
+
+  .section_how {
+    margin-top: 15px;
+  }
   .advice_title_main {
     margin: 12px 0;
   }
 
   .pictures_section {
-    margin-top: 5px;
+    margin-top: 25px;
   }
 
   .answer {
@@ -331,6 +338,9 @@
     margin-top: 12px;
   }
 
+  .section_what {
+    margin-top: 10px;
+  }
   .question_what {
     width: 30%;
     margin-top: 35px;
@@ -360,7 +370,7 @@
 
   .picture_question {
     grid-column: 1 / 4;
-    margin-top: 100px;
+    margin-top: 150px;
   }
 
   .footer_title {
@@ -394,7 +404,7 @@
   }
 
   .answer {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .header_text {
@@ -443,6 +453,6 @@
   }
 
   .pictures_section {
-    margin-top: 40px;
+    margin-top: 30px;
   }
 }
