@@ -118,11 +118,13 @@
   margin-top: var(--section-child-margin);
 }
 
-.section_what,
-.section_how {
-  margin-top: 30px;
+.section_what {
+  margin-top: 40px;
 }
 
+.section_how {
+  margin-top: 50px;
+}
 .advice_title_main {
   margin: 20px 0;
 }
@@ -194,7 +196,7 @@
 }
 
 .pictures_section {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .pictures {
