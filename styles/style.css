@@ -371,7 +371,7 @@
 
   .section_why {
     gap: 10px;
-    margin-top: 40px;
+    margin-top: 30px;
   }
 
   .header_text {
@@ -403,6 +403,7 @@
     display: block;
     width: 30%;
     grid-area: question_what;
+    margin-top: 5px;
   }
 
   .answers_what {
@@ -410,27 +411,32 @@
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-area: answers_what;
-    margin-top: 77px;
+    margin-top: 72px;
   }
 
   .section_how {
     gap: 10px;
+    margin-top: 10px;
+  }
+
+  .pictures_section {
+    margin-top: 10px;
   }
 }
 
 @media (max-width: 480px) {
   .section {
-    margin-top: 20px;
+    margin-top: 15px;
   }
 
   .section_why {
     margin-top: 25px;
   }
   .section_what {
-    margin-top: 35px;
+    margin-top: 40px;
   }
   .section_how {
-    margin-top: 50px;
+    margin-top: 60px;
   }
   .question {
     margin-top: 12px;
@@ -441,7 +447,7 @@
   }
 
   .pictures_section {
-    margin-top: 55px;
+    margin-top: 65px;
   }
 
   .answer {
