@@ -103,7 +103,7 @@
 }
 
 .main {
-  margin-inline: var(--decoration-gap);
+  margin-top: 50px;
 }
 
 /* вопросы и ответы */
