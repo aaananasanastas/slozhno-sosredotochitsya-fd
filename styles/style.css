@@ -104,13 +104,14 @@
 
 .main {
   margin-top: 50px;
+  margin-left: 20px;
 }
 
 /* вопросы и ответы */
 .section {
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .section_why {
@@ -119,7 +120,7 @@
 
 .section_what,
 .section_how {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .advice_title_main {
@@ -205,7 +206,7 @@
 .pictures__item {
   padding: 0;
   list-style: none;
-  margin: 0 0 10px 0;
+  margin-top: 40px;
 }
 
 .pictures__image {
@@ -216,7 +217,7 @@
 }
 
 .picture_question {
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 .footer {
