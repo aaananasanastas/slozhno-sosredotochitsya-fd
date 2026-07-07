@@ -159,7 +159,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .answer_title {
@@ -403,7 +403,7 @@
     display: block;
     width: 30%;
     grid-area: question_what;
-    margin-top: 15px;
+    margin-top: 30px;
   }
 
   .answers_what {
@@ -416,7 +416,7 @@
 
   .section_how {
     gap: 10px;
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   .pictures_section {
