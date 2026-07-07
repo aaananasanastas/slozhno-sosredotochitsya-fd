@@ -135,12 +135,7 @@
 }
 
 .answers-block {
-  margin-top: 20px;
-}
-
-.question_why {
-  position: relative;
-  top: 20px;
+  margin-top: 0px;
 }
 
 @media (max-width: 768px) {
