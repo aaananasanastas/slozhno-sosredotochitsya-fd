@@ -339,7 +339,7 @@
   }
 
   .section_what {
-    margin-top: 10px;
+    margin-top: 30px;
   }
   .question_what {
     width: 30%;
@@ -452,7 +452,10 @@
     margin-top: 63px;
   }
 
+  .section_what {
+    margin-top: 25px;
+  }
   .pictures_section {
-    margin-top: 30px;
+    margin-top: 10px;
   }
 }
