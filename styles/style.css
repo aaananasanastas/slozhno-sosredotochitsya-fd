@@ -110,7 +110,7 @@
 .section {
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .section_why {
@@ -119,7 +119,7 @@
 
 .section_what,
 .section_how {
-  /* пусто: стили уже заданы в .section */
+  margin-top: 40px;
 }
 
 .advice_title_main {
@@ -134,13 +134,13 @@
   margin-top: 20px;
 }
 
-/* ИСПРАВЛЕНИЕ: Убрали position:relative, используем margin для сдвига */
-.question_why {
-  margin-top: 50px; /* Подбираем значение, чтобы соответствовать макету (было смещение на 20px + базовый отступ) */
-}
-
 .answers-block {
   margin-top: 20px;
+}
+
+.question_why {
+  position: relative;
+  top: 20px;
 }
 
 @media (max-width: 768px) {
@@ -313,7 +313,7 @@
   }
 
   .question {
-    margin-top: 20px;
+    margin-top: 12px;
   }
 
   .question_what {
@@ -371,7 +371,7 @@
 
   .section_why {
     gap: 10px;
-    margin-top: 0px; /*?*/
+    margin-top: 40px;
   }
 
   .header_text {
@@ -410,12 +410,11 @@
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-area: answers_what;
-    margin-top: 80px;
+    margin-top: 77px;
   }
 
   .section_how {
     gap: 10px;
-    margin-top: 15px;
   }
 }
 
