@@ -110,7 +110,7 @@
 .section {
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .section_why {
@@ -119,7 +119,7 @@
 
 .section_what,
 .section_how {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .advice_title_main {
@@ -427,10 +427,10 @@
     margin-top: 25px;
   }
   .section_what {
-    margin-top: 30px;
+    margin-top: 35px;
   }
   .section_how {
-    margin-top: 43px;
+    margin-top: 50px;
   }
   .question {
     margin-top: 12px;
@@ -441,7 +441,7 @@
   }
 
   .pictures_section {
-    margin-top: 45px;
+    margin-top: 55px;
   }
 
   .answer {
