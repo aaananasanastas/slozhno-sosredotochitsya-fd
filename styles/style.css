@@ -331,7 +331,7 @@
   }
 
   .section_what {
-    margin-top: 30px;
+    margin-top: 40px;
   }
   .question_what {
     width: 30%;
@@ -357,7 +357,7 @@
     gap: 28px;
     grid-template-columns: 1fr 2fr;
     grid-template-areas: "question_how answers_how";
-    margin-top: 50px;
+    margin-top: 70px;
   }
 
   .picture_question {
@@ -441,11 +441,11 @@
 
   .section_how {
     gap: 20px;
-    margin-top: 100px;
+    margin-top: 80px;
   }
 
   .section_what {
-    margin-top: 60px;
+    margin-top: 65px;
   }
   .pictures_section {
     margin-top: 30px;
