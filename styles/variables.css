@@ -16,7 +16,7 @@
   --decoration-gap: clamp(10px, 2.65vw, 20px);
   --min-height: 668px;
   --header-margin-left: min(10px, 20px - 2.6vw);
-  --section-child-margin: 40px;
+  --section-child-margin: 20px;
   --project-font-family: "IBM Plex Mono", monospace;
   --corner-thickness: 1px;
   --rec_empty_x_pos: 30px;

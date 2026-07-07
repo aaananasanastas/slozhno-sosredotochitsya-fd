@@ -110,7 +110,7 @@
 .section {
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .section_why {
