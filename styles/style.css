@@ -335,10 +335,10 @@
   }
   .question_what {
     width: 30%;
-    margin-top: 35px;
+    margin-top: 40px;
   }
   .answers_what {
-    gap: 10px;
+    padding-top: 10px;
     margin-top: 20px;
   }
 
@@ -350,7 +350,7 @@
   }
 
   .answer_why {
-    gap: 10px;
+    padding-top: 10px;
   }
 
   .section_how {
@@ -392,10 +392,12 @@
   }
 
   .section_why {
-    gap: 10px;
+  
     margin-top: 25px;
   }
-
+.answer_why{
+  padding-top:  20px;
+}
   .answer {
     margin-top: 10px;
   }
@@ -441,14 +443,11 @@
   }
 
   .section_how {
-    gap: 20px;
-    margin-top: 70px;
+    gap: 10px;
+    margin-top: 65px;
   }
 
   .section_what {
     margin-top: 45px;
-  }
-  .pictures_section {
-    margin-top: 5px;
   }
 }
