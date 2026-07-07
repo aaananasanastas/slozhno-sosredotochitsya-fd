@@ -110,7 +110,7 @@
 .section {
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .section_why {
@@ -134,13 +134,13 @@
   margin-top: 20px;
 }
 
-.answers-block {
-  margin-top: 20px;
+/* ИСПРАВЛЕНИЕ: Убрали position:relative, используем margin для сдвига */
+.question_why {
+  margin-top: 40px; /* Подбираем значение, чтобы соответствовать макету (было смещение на 20px + базовый отступ) */
 }
 
-.question_why {
-  position: relative;
-  top: 20px;
+.answers-block {
+  margin-top: 20px;
 }
 
 @media (max-width: 768px) {
