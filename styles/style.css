@@ -270,13 +270,6 @@
     margin-top: 8px;
   }
 
-  .section_why {
-    margin-top: 5px;
-  }
-
-  .section_how {
-    margin-top: 5px;
-  }
   .question {
     margin-top: 12px;
   }
@@ -286,11 +279,10 @@
   }
 
   .pictures_section {
-    margin-top: 15px;
+    margin-top: 5px;
   }
 
   .answer {
-    padding-top: 12px;
     gap: 8px;
   }
 }
@@ -341,10 +333,10 @@
 
   .question_what {
     width: 30%;
-    margin-top: 25px;
+    margin-top: 35px;
   }
   .answers_what {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .section_why {
@@ -354,17 +346,21 @@
     grid-template-areas: "question_why answers_why";
   }
 
+  .answer_why {
+    gap: 10px;
+  }
+
   .section_how {
     display: grid;
     gap: 28px;
     grid-template-columns: 1fr 2fr;
     grid-template-areas: "question_how answers_how";
-    margin-top: 30px;
+    margin-top: 50px;
   }
 
   .picture_question {
     grid-column: 1 / 4;
-    margin-top: 70px;
+    margin-top: 100px;
   }
 
   .footer_title {
@@ -374,7 +370,7 @@
 
   .pictures {
     gap: 22px;
-    margin-top: 40px;
+    margin-top: 20px;
     grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -382,10 +378,6 @@
 @media (width >= 1024px) {
   .header {
     margin-block-end: 0;
-  }
-
-  .footer {
-    margin-top: 15px;
   }
 
   .big_headline {
@@ -403,9 +395,6 @@
 
   .answer {
     margin-top: 20px;
-  }
-  .answer_why {
-    margin-top: 15px;
   }
 
   .header_text {
@@ -454,6 +443,6 @@
   }
 
   .pictures_section {
-    margin-top: 60px;
+    margin-top: 40px;
   }
 }
