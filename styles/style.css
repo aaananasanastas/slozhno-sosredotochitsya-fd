@@ -7,6 +7,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -74,10 +76,10 @@
   text-shadow: 4px 4px 0 var(--accent-color);
   line-height: 0.825;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  margin-left: var(--header-margin-left);
+  margin-left: var(--header-margin-left, var(--decoration-gap));
 }
 
-/* уголочки*/
+/* уголочки */
 .decor:before {
   content: "";
   position: absolute;
@@ -106,7 +108,7 @@
   margin-inline: var(--decoration-gap);
 }
 
-/* вопросы и ответы*/
+/* вопросы и ответы */
 .section {
   display: grid;
   grid-template-columns: 1fr;
@@ -249,6 +251,14 @@
 }
 
 /* --- Медиа-запросы --- */
+
+@media (max-width: 400px) {
+  .main .section.section_why,
+  .main .section.section_what,
+  .main .section.section_how {
+    margin-top: 10px !important;
+  }
+}
 
 @media (width >= 768px) {
   .big_headline {
@@ -395,13 +405,5 @@
 
   .section_how {
     gap: 10px;
-  }
-}
-
-@media (max-width: 400px) {
-  .section_why,
-  .section_what,
-  .section_how {
-    margin-top: 10px !important;
   }
 }
