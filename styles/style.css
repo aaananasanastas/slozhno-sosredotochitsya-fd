@@ -253,7 +253,7 @@
   .section_why,
   .section_what,
   .section_how {
-    margin-top: 10px;
+    margin-top: 10px !important;
   }
 }
 
