@@ -249,7 +249,7 @@
 }
 
 /* --- Медиа-запросы --- */
-@media (width <= 400px) {
+@media (max-width: 400px) {
   .section_why,
   .section_what,
   .section_how {
