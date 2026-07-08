@@ -250,7 +250,9 @@
 
 /* --- Медиа-запросы --- */
 @media (width >= 400px) {
-  .section {
+  .section_why,
+  .section_what,
+  .section_how {
     margin-top: 10px;
   }
 }
