@@ -253,10 +253,14 @@
 /* --- Медиа-запросы --- */
 
 @media (max-width: 400px) {
-  .main .section.section_why,
-  .main .section.section_what,
-  .main .section.section_how {
-    margin-top: 10px !important;
+  .section_why {
+   padding-top: 20px;
+  }
+  .section_what {
+    padding-top:  ;
+  }
+  .section_how {
+    padding-top:  ;
   }
 }
 
