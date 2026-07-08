@@ -249,13 +249,6 @@
 }
 
 /* --- Медиа-запросы --- */
-@media (max-width: 400px) {
-  .section_why,
-  .section_what,
-  .section_how {
-    margin-top: 10px !important;
-  }
-}
 
 @media (width >= 768px) {
   .big_headline {
@@ -402,5 +395,13 @@
 
   .section_how {
     gap: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .section_why,
+  .section_what,
+  .section_how {
+    margin-top: 10px !important;
   }
 }
