@@ -250,7 +250,7 @@
 
 /* --- Медиа-запросы --- */
 @media (width >= 400px) {
-  main {
+  .section {
     margin-top: 10px;
   }
 }
