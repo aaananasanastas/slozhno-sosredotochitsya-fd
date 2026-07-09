@@ -7,8 +7,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  margin: 0;
-  padding: 0;
 }
 
 .header {
@@ -254,13 +252,7 @@
 
 @media (max-width: 400px) {
   .section_why {
-   padding-top: 20px;
-  }
-  .section_what {
-    padding-top:  ;
-  }
-  .section_how {
-    padding-top:  ;
+    padding-top: 20px;
   }
 }
 
@@ -390,7 +382,8 @@
       "question_what ."
       "answers_what answers_what";
   }
-  .question {
+  .question_why,
+  .question_how {
     margin-top: 20px;
   }
   .question_what {
